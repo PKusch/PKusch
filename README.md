@@ -38,11 +38,12 @@ Anyone can publish the run that worked. These are the ones I would point a revie
   and also found two defects in the criteria themselves. Both are fixed and both are
   written up rather than quietly patched.
 
-- **[Naming the limit instead of papering over it.](https://github.com/PKusch/airlock#limits-i-would-not-paper-over)**
-  Airlock infers a tool's effects from its name and description. That is lexical, and a
-  tool that describes itself in words outside the vocabulary is caught only if its
-  parameters give it away. The README carries a table of what is verified and what is
-  not, and that row is marked *not verified*.
+- **[Measuring the limit instead of papering over it.](https://github.com/PKusch/airlock#what-the-vocabulary-cannot-see)**
+  Airlock infers a tool's effects from its name and description, which is lexical. On 22
+  tools named the way ordinary API authors name things, the vocabulary misses 14 of the
+  18 that do something consequential. Those used to score exactly like `ping`. They are
+  now reported as *unrecognised*, which is honest, and still not caught, which the README
+  says in the same paragraph.
 
 ---
 
