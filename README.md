@@ -23,30 +23,6 @@ Everything here is public, MIT unless the repo says otherwise, and runs from a c
 
 ---
 
-### Things that did not hold up, in public
-
-Anyone can publish the run that worked. These are the ones I would point a reviewer at.
-
-- **[A gate that fired on one ordinary call in four.](https://github.com/PKusch/airlock#calibration)**
-  Airlock's first severity ladder false-alarmed on 23% of a benign corpus. Every one of
-  those calls had declared its effect and stayed inside its declared boundary, and the
-  ladder ignored both. The corrected number is 0%, and the README says why that figure
-  deserves less trust than it looks.
-
-- **[Measuring whether my own instrument works.](https://github.com/PKusch/remit#why-this-exists)**
-  The diagnostic manual claimed inter-rater reliability. A blind panel tested the claim,
-  and also found two defects in the criteria themselves. Both are fixed and both are
-  written up rather than quietly patched.
-
-- **[Measuring the limit instead of papering over it.](https://github.com/PKusch/airlock#what-the-vocabulary-cannot-see)**
-  Airlock infers a tool's effects from its name and description, which is lexical. On 22
-  tools named the way ordinary API authors name things, the vocabulary misses 14 of the
-  18 that do something consequential. Those used to score exactly like `ping`. They are
-  now reported as *unrecognised*, which is honest, and still not caught, which the README
-  says in the same paragraph.
-
----
-
 ### Background
 
 Management consulting: AI, product and financial-services transformation. Large-scale
@@ -54,5 +30,3 @@ change in regulated environments — business analysis, product delivery, agile 
 working, operating-model modernisation across enterprise programmes. Regulatory literacy
 (DORA, EU AI Act, NIST AI RMF, ISO 42001) is why the governance work above is grounded
 rather than theoretical.
-
-London.
