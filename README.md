@@ -22,12 +22,3 @@ Everything here is public, MIT unless the repo says otherwise, and runs from a c
 | **[terroir-study](https://github.com/PKusch/terroir-study)** | A map for studying wine, for the WSET Level 3 exam: France, Italy, Spain, Germany and the New World. | Click a region, zoom in to its villages, follow the chain from climate to what is in the glass, then get quizzed on the *why*. 165 questions that remember what you got wrong, and a tasting drill marked against the grape. |
 | **[berghain-bouncer](https://github.com/PKusch/berghain-bouncer)** | A voice doorman for a Berlin techno club that turns almost everyone away. | Built in under an hour at a meetup. The verdict is stamped on screen, so the agent acts rather than just talks. |
 
----
-
-### Background
-
-Management consulting: AI, product and financial-services transformation. Large-scale
-change in regulated environments — business analysis, product delivery, agile ways of
-working, operating-model modernisation across enterprise programmes. Regulatory literacy
-(DORA, EU AI Act, NIST AI RMF, ISO 42001) is why the governance work above is grounded
-rather than theoretical.
