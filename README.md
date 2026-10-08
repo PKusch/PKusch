@@ -1,13 +1,8 @@
-**I build the parts of an agent system that decide what the agent is allowed to do — and I publish the measurements, including the ones that went against me.**
+I make small projects about AI agents: what an agent is allowed to do, how a person can check what it's about to do, and how to measure whether it knows.
 
-Most of what is here is governance and consent infrastructure for AI agents: what an
-agent may do without asking anyone, how the person it does ask is protected from being
-lied to, and how to write down what went wrong afterwards so that two engineers looking
-at the same incident record the same thing. I came to it from a career delivering change
-inside banks, which is where I learned that the failures worth worrying about are the
-quiet ones.
+They're experiments, not products. Everything here is MIT-licensed and most of it has tests that run on every push. The READMEs say what doesn't work: the benchmark below has not been run against a real model yet, and the Magic 8 Ball is safer than asking the model directly but not smarter.
 
-Everything here is public, MIT unless the repo says otherwise, and runs from a clean clone.
+The rest is one-offs: a hackathon tool for matching consultants to work, a wine study app, and a doorman bot for a Berlin club.
 
 ---
 
