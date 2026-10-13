@@ -2,7 +2,7 @@ I work on projects to learn how AI agents behave: what an agent is allowed to do
 
 Everything here is MIT-licensed and most of it has tests that run on every push. The READMEs say what doesn't work yet: the benchmark below has not been run against a real model, and the Magic 8 Ball is safer than asking the model directly but not smarter.
 
-Other projects: a hackathon tool for matching consultants to work, a wine study app, and a doorman bot for a Berlin club.
+Other projects: a hackathon tool for matching consultants to work, a wine study app, and a doorman bot for a Berlin club. Smaller things for fun: [alchemy](https://github.com/PKusch/alchemy), a falling-sand world in one web page, and [repo-fortune](https://github.com/PKusch/repo-fortune), a horoscope for your git repo.
 
 ---
 
