@@ -1,6 +1,6 @@
 I work on projects to learn how AI agents behave: what an agent is allowed to do, how a person can check what it's about to do, what it's allowed to remember, and how to measure whether it knows.
 
-Everything here is MIT-licensed and most of it has tests that run on every push. The READMEs say what doesn't work yet: the benchmark below has not been run against a real model, and the Magic 8 Ball is safer than asking the model directly but not smarter.
+Everything here is MIT-licensed and most of it has tests that run on every push. The READMEs say what doesn't work yet: the benchmark below has only been run on two small models, not a large hosted one, and the Magic 8 Ball is safer than asking the model directly but not smarter.
 
 ---
 
